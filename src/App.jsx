@@ -1,27 +1,18 @@
-import './App.css'
-import ContadorComponente from './components/ContadorComponente'
-import NavComponente from './components/NavComponente'
-import TituloComponente from './components/TituloComponente'
+import './App.css';
+import NavBar from './components/NavBar';
+import{library} from '@fortawesome/fontawesome-svg-core';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
 
 function App() {
-  const styleimg={
-  width:'500px',
-  height:'auto',
-  borderRadius:'50%',
-  border:'2px solid gray',
-  marginTop:'2rem',
-  marginBottom:'2rem'
-  }
 
   return (
     <>
-<h2 className='titulo'> Hola React</h2>
-<NavComponente/>
-<TituloComponente/>
-<ContadorComponente/>
+<NavBar/>
 
     </>
-  )
+  );
 }
 
+library.add( faCartShopping);
 export default App
