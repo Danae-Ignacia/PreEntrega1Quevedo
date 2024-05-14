@@ -1,8 +1,7 @@
-export default function ButtonComponent({ name, background, color }) {
-
+export default function ButtonComponent({ name, click }) {
   return (
     <>
-    <button>
+    <button className="button-header" onClick={click}>
       {name}
     </button>
     </>

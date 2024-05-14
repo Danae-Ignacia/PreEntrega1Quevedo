@@ -1,6 +1,20 @@
-.barra{
+.menu{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:right;
     gap:2rem;
+}
+.logo-header {
+    width: 80%;
+    height: auto;
+}
+.section-header {
+    background: black;
+}
+
+.button-header{
+    background-color: gray;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: 600;
 }
