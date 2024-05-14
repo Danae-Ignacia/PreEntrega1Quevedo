@@ -10,9 +10,10 @@ function App() {
   return (
     <>
 <NavBar/>
+<div>
 <ItemListContainer greeting='Bienvenidos a Biker Store'/>
 <ItemListContainer textGreeting='Suscribete y recibe nuestras increibles promociones'/>
-
+</div>
     </>
   );
 }
