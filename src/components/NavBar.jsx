@@ -2,6 +2,7 @@ import "./NavBar.css";
 import logo from "../imgs/logo-biker.png";
 import CartWidget from "./CartWidget";
 import ButtonComponent from "./ButtonComponent";
+import SearchComponent from "./SearchComponent";
 
 export default function NavBar() {
     const clickComprar = () => {
@@ -25,7 +26,9 @@ export default function NavBar() {
               <ButtonComponent name="Comprar" click={clickComprar} />
               <ButtonComponent name="Blog" click={clickBlog} />
               <ButtonComponent name="Nosotros" click={clickNosotros} />
+              <SearchComponent/>
               <CartWidget></CartWidget>
+          
             </nav>
           </div>
         </div>
